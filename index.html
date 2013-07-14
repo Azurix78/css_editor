@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HAIR WIND</title>
+		<meta name="author" content="rubio_n">
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+		<link rel="stylesheet" href="style.css" />
+		<script type="text/javascript" src="scripts/script.js"></script>
+	</head>
+	<body>
+		<nav>
+			<div class="logo" id="logo">
+				<a href="index.html">HAIR Wind</a>
+			</div>
+			<button onclick="switchlol('SizeboX')">Size boX</button>
+		</nav>
+			<div id="SizeboX">
+				<button id="mstxt" onclick="mstxt()"> - </button>
+				Taille du texte
+				<button id="pstxt" onclick="pstxt()"> + </button>
+			</div>
+		<div class="container">
+			<div class="right_container">
+							<ul>
+								<li onclick="switchlol('acc_1');hidediv('acc')">Accueil</li>
+							</ul>
+									<div id="acc_1">
+										<ul>
+											<li onclick="hidediv('societe')">La société</li>
+											<li onclick="hidediv('histo')">Historique</li>
+											<li onclick="hidediv('presse')">Presse</li>
+										</ul>
+									</div>
+							<ul>
+								<li onclick="switchlol('prod_1');hidediv('prod')">Produits et services</li>
+							</ul>
+									<div id="prod_1">
+										<ul>
+											<li onclick="hidediv('distrac')">Gamme Distraction</li>
+											<li onclick="hidediv('confort')">Gamme Confort</li>
+											<li onclick="switchlol('prod2');hidediv('enfant')">Gamme enfants</li>
+										</ul>
+												<div id="prod2">
+													<ul>
+														<li onclick="hidediv('a36')">De 3 à 6 ans</li>
+														<li onclick="hidediv('a711')">De 7 à 11ans</li>
+														<li onclick="hidediv('p11')">Plus de 11 ans</li>
+													</ul>
+												</div>
+										<ul>
+											<li onclick="hidediv('support')">Support et téléchargements</li>
+										</ul>
+									</div>
+							<ul>
+								<li onclick="switchlol('con_1');hidediv('contact')">Contacts</li>
+							</ul>
+									<div id="con_1">
+										<ul>
+											<li onclick="hidediv('acces')">Plan d’accès</li>
+											<li onclick="hidediv('ouvert')">Horaires d’ouvertures</li>
+											<li onclick="hidediv('info')">Informations légales</li>
+										</ul>
+									</div>
+			</div>
+			<div class="left_container">
+
+				<div id="acc">
+					<h1>Accueil</h1>
+				
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer viverra augue tortor, nec convallis orci luctus et. Suspendisse aliquet ante ut est gravida eleifend. Cras dapibus non sem eget imperdiet. Sed ligula libero, imperdiet at sagittis eget, ultricies non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc sollicitudin at ipsum eu auctor. Fusce lacus nisl, adipiscing eget pellentesque posuere, mollis a lacus. Praesent et porttitor leo, quis fringilla metus. Ut eu dignissim neque, in rutrum elit.</p>
+				</div>
+
+						<div id="societe">
+							<h1>La société</h1>
+						
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer viverra augue tortor, nec convallis orci luctus et. Suspendisse aliquet ante ut est gravida eleifend. Cras dapibus non sem eget imperdiet. Sed ligula libero, imperdiet at sagittis eget, ultricies non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc sollicitudin at ipsum eu auctor. Fusce lacus nisl, adipiscing eget pellentesque posuere, mollis a lacus. Praesent et porttitor leo, quis fringilla metus. Ut eu dignissim neque, in rutrum elit.</p>
+						</div>
+
+						<div id="histo">
+							<h1>Historique</h1>
+						
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer viverra augue tortor, nec convallis orci luctus et. Suspendisse aliquet ante ut est gravida eleifend. Cras dapibus non sem eget imperdiet. Sed ligula libero, imperdiet at sagittis eget, ultricies non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc sollicitudin at ipsum eu auctor. Fusce lacus nisl, adipiscing eget pellentesque posuere, mollis a lacus. Praesent et porttitor leo, quis fringilla metus. Ut eu dignissim neque, in rutrum elit.</p>
+						</div>
+
+						<div id="presse">
+							<h1>Presse</h1>
+						
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer viverra augue tortor, nec convallis orci luctus et. Suspendisse aliquet ante ut est gravida eleifend. Cras dapibus non sem eget imperdiet. Sed ligula libero, imperdiet at sagittis eget, ultricies non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc sollicitudin at ipsum eu auctor. Fusce lacus nisl, adipiscing eget pellentesque posuere, mollis a lacus. Praesent et porttitor leo, quis fringilla metus. Ut eu dignissim neque, in rutrum elit.</p>
+						</div>
+
+				<div id="prod">
+					<h1>Produits et services</h1>
+				
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer viverra augue tortor, nec convallis orci luctus et. Suspendisse aliquet ante ut est gravida eleifend. Cras dapibus non sem eget imperdiet. Sed ligula libero, imperdiet at sagittis eget, ultricies non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc sollicitudin at ipsum eu auctor. Fusce lacus nisl, adipiscing eget pellentesque posuere, mollis a lacus. Praesent et porttitor leo, quis fringilla metus. Ut eu dignissim neque, in rutrum elit.</p>
+				</div>
+
+						<div id="distrac">
+							<h1>Gamme Distraction</h1>
+						
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer viverra augue tortor, nec convallis orci luctus et. Suspendisse aliquet ante ut est gravida eleifend. Cras dapibus non sem eget imperdiet. Sed ligula libero, imperdiet at sagittis eget, ultricies non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc sollicitudin at ipsum eu auctor. Fusce lacus nisl, adipiscing eget pellentesque posuere, mollis a lacus. Praesent et porttitor leo, quis fringilla metus. Ut eu dignissim neque, in rutrum elit.</p>
+						</div>
+
+						<div id="confort">
+							<h1>Gamme Confort</h1>
+						
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer viverra augue tortor, nec convallis orci luctus et. Suspendisse aliquet ante ut est gravida eleifend. Cras dapibus non sem eget imperdiet. Sed ligula libero, imperdiet at sagittis eget, ultricies non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc sollicitudin at ipsum eu auctor. Fusce lacus nisl, adipiscing eget pellentesque posuere, mollis a lacus. Praesent et porttitor leo, quis fringilla metus. Ut eu dignissim neque, in rutrum elit.</p>
+						</div>
+
+						<div id="enfant">
+							<h1>Gamme enfants</h1>
+						
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer viverra augue tortor, nec convallis orci luctus et. Suspendisse aliquet ante ut est gravida eleifend. Cras dapibus non sem eget imperdiet. Sed ligula libero, imperdiet at sagittis eget, ultricies non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc sollicitudin at ipsum eu auctor. Fusce lacus nisl, adipiscing eget pellentesque posuere, mollis a lacus. Praesent et porttitor leo, quis fringilla metus. Ut eu dignissim neque, in rutrum elit.</p>
+
+								</div>
+										<div id="a36">
+									<h1>De 3 à 6 ans</h1>
+								
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer viverra augue tortor, nec convallis orci luctus et. Suspendisse aliquet ante ut est gravida eleifend. Cras dapibus non sem eget imperdiet. Sed ligula libero, imperdiet at sagittis eget, ultricies non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc sollicitudin at ipsum eu auctor. Fusce lacus nisl, adipiscing eget pellentesque posuere, mollis a lacus. Praesent et porttitor leo, quis fringilla metus. Ut eu dignissim neque, in rutrum elit.</p>
+								</div>
+
+								<div id="a711">
+									<h1>De 7 à 11ans</h1>
+								
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer viverra augue tortor, nec convallis orci luctus et. Suspendisse aliquet ante ut est gravida eleifend. Cras dapibus non sem eget imperdiet. Sed ligula libero, imperdiet at sagittis eget, ultricies non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc sollicitudin at ipsum eu auctor. Fusce lacus nisl, adipiscing eget pellentesque posuere, mollis a lacus. Praesent et porttitor leo, quis fringilla metus. Ut eu dignissim neque, in rutrum elit.</p>
+								</div>
+
+								<div id="p11">
+									<h1>Plus de 11 ans</h1>
+								
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer viverra augue tortor, nec convallis orci luctus et. Suspendisse aliquet ante ut est gravida eleifend. Cras dapibus non sem eget imperdiet. Sed ligula libero, imperdiet at sagittis eget, ultricies non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc sollicitudin at ipsum eu auctor. Fusce lacus nisl, adipiscing eget pellentesque posuere, mollis a lacus. Praesent et porttitor leo, quis fringilla metus. Ut eu dignissim neque, in rutrum elit.</p>
+								</div>
+
+						<div id="support">
+							<h1>Support et téléchargements</h1>
+						
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer viverra augue tortor, nec convallis orci luctus et. Suspendisse aliquet ante ut est gravida eleifend. Cras dapibus non sem eget imperdiet. Sed ligula libero, imperdiet at sagittis eget, ultricies non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc sollicitudin at ipsum eu auctor. Fusce lacus nisl, adipiscing eget pellentesque posuere, mollis a lacus. Praesent et porttitor leo, quis fringilla metus. Ut eu dignissim neque, in rutrum elit.</p>
+						</div>
+
+				<div id="contact">
+					<h1>Contacts</h1>
+				
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer viverra augue tortor, nec convallis orci luctus et. Suspendisse aliquet ante ut est gravida eleifend. Cras dapibus non sem eget imperdiet. Sed ligula libero, imperdiet at sagittis eget, ultricies non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc sollicitudin at ipsum eu auctor. Fusce lacus nisl, adipiscing eget pellentesque posuere, mollis a lacus. Praesent et porttitor leo, quis fringilla metus. Ut eu dignissim neque, in rutrum elit.</p>
+				</div>
+
+						<div id="acces">
+							<h1>Plan d’accès</h1>
+						
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer viverra augue tortor, nec convallis orci luctus et. Suspendisse aliquet ante ut est gravida eleifend. Cras dapibus non sem eget imperdiet. Sed ligula libero, imperdiet at sagittis eget, ultricies non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc sollicitudin at ipsum eu auctor. Fusce lacus nisl, adipiscing eget pellentesque posuere, mollis a lacus. Praesent et porttitor leo, quis fringilla metus. Ut eu dignissim neque, in rutrum elit.</p>
+						</div>
+
+						<div id="ouvert">
+							<h1>Horaires d’ouvertures</h1>
+						
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer viverra augue tortor, nec convallis orci luctus et. Suspendisse aliquet ante ut est gravida eleifend. Cras dapibus non sem eget imperdiet. Sed ligula libero, imperdiet at sagittis eget, ultricies non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc sollicitudin at ipsum eu auctor. Fusce lacus nisl, adipiscing eget pellentesque posuere, mollis a lacus. Praesent et porttitor leo, quis fringilla metus. Ut eu dignissim neque, in rutrum elit.</p>
+						</div>
+
+						<div id="info">
+							<h1>Informations légales</h1>
+						
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer viverra augue tortor, nec convallis orci luctus et. Suspendisse aliquet ante ut est gravida eleifend. Cras dapibus non sem eget imperdiet. Sed ligula libero, imperdiet at sagittis eget, ultricies non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc sollicitudin at ipsum eu auctor. Fusce lacus nisl, adipiscing eget pellentesque posuere, mollis a lacus. Praesent et porttitor leo, quis fringilla metus. Ut eu dignissim neque, in rutrum elit.</p>
+						</div>
+
+			</div>
+			
+		</div>
+		<div id="color_box">
+				<h1>Couleur du texte</h1>
+				<button onclick="bgtxt('vert')" id="vert"></button>
+				<button onclick="bgtxt('rouge')" id="rouge"></button>
+				<button onclick="bgtxt('bleu')" id="bleu"></button>
+				<button onclick="bgtxt('noir')" id="noir"></button>
+				<button onclick="bgtxt('jaune')" id="jaune"></button>
+
+				<h1>Couleur de fond</h1>
+				<button onclick="bgimg('vert')" id="vert"></button>
+				<button onclick="bgimg('rouge')" id="rouge"></button>
+				<button onclick="bgimg('bleu')" id="bleu"></button>
+				<button onclick="bgimg('noir')" id="noir"></button>
+				<button onclick="bgimg('jaune')" id="jaune"></button>
+		</div>
+		<footer>
+			<button onclick="switchlol('color_box')">Color boX</button>
+		</footer>
+	</body>
+</html>
+
+
+
+
+
+
+
