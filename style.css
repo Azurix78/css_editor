@@ -47,6 +47,10 @@ table {
 	border-spacing: 0;
 }
 
+strong
+{
+	font-weight: bold;
+}
 
 @font-face
 {
@@ -393,4 +397,48 @@ nav button:active
 {
 	height: 25px;
 	margin-top: 20px
+}
+
+#acc img
+{
+	display: inline-block;
+	margin-right: 10px;
+}
+
+#acc li
+{
+	margin-left: 30px;
+	padding: 0px 5px;
+	list-style-type: circle;
+}
+
+#acc_text
+{
+	display: inline-block;
+	width: 300px;
+	vertical-align: top;
+}
+
+#societe img
+{
+	width: 100%;
+}
+
+#histo img
+{
+	width: 100%;
+	margin: 5px 0;
+}
+
+#presse p
+{
+	width: 275px;
+	display:inline-block;
+	text-align: justify;
+
+}
+
+#presse img
+{
+	width: 100%;
 }
