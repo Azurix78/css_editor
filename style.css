@@ -442,3 +442,83 @@ nav button:active
 {
 	width: 100%;
 }
+
+#distrac img
+{
+	width: 100%;
+}
+
+#confort img
+{
+	float: left;
+}
+
+#confort p
+{
+	margin-left: 305px;
+}
+
+#enfant1
+{
+	float: right;
+	width: 250px;
+	border-radius: 250px;
+}
+
+#enfant2
+{
+	float: left;
+	width: 250px;
+	border-radius: 250px;
+}
+
+#enfant img
+{
+	margin: 5px 10px;
+}
+
+#enfant3a61
+{
+	width: 285px;
+}
+
+#enfant3a62
+{
+	float: right;
+}
+
+#a36 p
+{
+	text-align: justify;
+}
+
+#plus111
+{
+	width: 100%;
+}
+
+#plus112
+{
+	width: 100%;
+}
+
+#support a
+{
+	display: block;
+	text-decoration: none;
+	color : #4E387E;
+	margin: 10px auto;
+	text-align: center;
+	width: 50%;
+	font-weight: bold;
+}
+
+#support a:hover
+{
+	color: white;
+}
+
+#a711 img
+{
+	width: 100%;
+}
