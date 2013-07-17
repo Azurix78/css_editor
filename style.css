@@ -304,27 +304,27 @@ footer button:active
 	height: 25px;
 }
 
-#vert
+#vert , #svert
 {
 	background-color: #6CEB96;
 }
 
-#rouge
+#rouge , #srouge
 {
 	background-color: #BA3C3C;
 }
 
-#bleu
+#bleu , #sbleu
 {
 	background-color: #3C90BA;
 }
 
-#noir
+#noir , #snoir
 {
 	background-color: #000000;
 }
 
-#jaune
+#jaune , #sjaune
 {
 	background-color: #FFD801;
 }
@@ -521,4 +521,91 @@ nav button:active
 #a711 img
 {
 	width: 100%;
+}
+
+#ouvert table
+{
+	width: 590px;
+	margin-bottom: 20px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#ouvert th
+{
+	background-color: #EB6DC1;
+	padding: 10px 10px;
+	font-weight: bold;
+	border-radius: 10px;
+}
+
+#ouvert td
+{
+	padding: 5px 0px;
+	border-radius: 10px;
+}
+
+#ouvert tr
+{
+	background-color: #4E387E;
+	text-align: center;
+}
+
+#info h2
+{
+	text-align: center;
+	font-weight: bold;
+	background-color: #4E387E;
+	border-radius: 10px;
+	border: 2px solid black;
+}
+
+#info p
+{
+	background-color: rgba(78, 56, 126, 0.2);
+	border-radius: 10px;
+	padding: 5px 10px;
+	margin-bottom: 20px;
+}
+
+#contact
+{
+}
+
+#contact table
+{
+	display: inline-block;
+	margin: 30px 0;
+	float: right;
+}
+
+#contact th
+{
+	background-color: #EB6DC1;
+	width: 150px;
+	font-weight: bold;
+	-webkit-border-top-left-radius: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+	-moz-border-radius-topleft: 15px;
+	-moz-border-radius-bottomleft: 15px;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+#contact td
+{
+	padding: 5px 10px;
+	width: 200px;
+	-webkit-border-top-right-radius: 15px;
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-radius-topright: 15px;
+	-moz-border-radius-bottomright: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+#contact tr
+{
+	background-color: #4E387E;
+	text-align: center;
 }
